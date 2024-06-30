@@ -1,0 +1,107 @@
+/* fifth section */
+
+#曜聘服务{
+    background-image: url("../../assets/image/1x/FifthSection/4thBg.png");
+    height: 90vh;
+    background-size: cover;
+    z-index:-1;
+    margin-top: -1px;
+  }
+  
+  #line4{
+    border-bottom: 2px solid #A5A5A5;
+    padding:20px;
+    position:relative;
+    z-index:2;
+    width: 8px;
+  }
+  
+  .FourthText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .FourthText h1{
+    font-size: 2.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
+    z-index:2;
+    color: black;
+  }
+  
+  .FourthText p{
+    font-size: 12px;
+    margin-top: 0.24rem;
+    z-index:2;
+    color: #757070;
+    font-weight: bold;
+  }
+  
+  #YAOPING2{
+    height: 9.6rem;
+    width: 48%;
+    z-index: 1;
+    position: relative;
+    top:-8rem;
+  }
+  
+  .FourServices{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6.4rem;
+  }
+  
+  .Service{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 20%;
+    height: 21.6rem;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Service h2{
+    font-size: 20px;
+    color: black;
+  }
+  
+  .Service img{
+    height: 10.4rem;
+    margin-top:-2rem;
+    margin-bottom: -4rem;
+  }
+  
+  .Service p{
+    font-size: 12.5px;
+    color: #3f3c3c;
+    font-weight: bold;
+    margin-top: 0.1rem;
+  }
+  
+  #Chess1{
+    height: 43%;
+    margin-bottom: -2.77rem;
+  }
+  
+  .gradient-line {
+    width: 48%; 
+    height: 1.6px; 
+    background: linear-gradient(to right, white, black, white); /* 从左到右的渐变 */
+  }
+  
+  .Service h2{
+    font-size: 1.6rem;
+  }
+  
+  .Service p{
+    margin-top: 0.56rem;
+    color: #666666;
+  }

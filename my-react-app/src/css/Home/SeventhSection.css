@@ -1,0 +1,17 @@
+/* Seventh Section */
+.SeventhSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/image/1x/SeventhSection/Bg.png");
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 100%;
+    top:0;
+    left:0;
+    background-size: cover;
+  }
+  
+  .SeventhSection img{
+    height: 6vh;
+  }

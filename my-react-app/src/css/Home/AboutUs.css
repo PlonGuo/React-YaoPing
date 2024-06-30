@@ -1,0 +1,102 @@
+/* second section */
+#AboutUs{
+    background-color: white;
+    /* overflow: hidden; */
+    background-size: cover;
+    height: 82vh;
+    
+  }
+  
+  #container{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BigHouselogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9.5rem;
+    z-index: 0;
+    margin-bottom: -36rem;
+    padding:0;
+    width: 80%;
+  }
+  
+  #BigLogo{
+    height: 32rem;
+    margin-top: 1.6rem;
+    z-index:1;
+  }
+  
+  #container h1{
+    color:black;
+    z-index:2;
+    font-size: 2.4rem;
+    margin-top: 10.4rem;
+  }
+  
+  #line1{
+    border-bottom: 1.6px solid #A5A5A5;
+    padding:20px;
+    position:relative;
+    z-index:2;
+    top:9.6rem;
+  }
+  
+  .AboutUsText{
+    z-index:2;
+    font-size: 12.5px;
+    margin-top: 0.5rem;
+    color: #666666;
+  }
+  
+  .Chess{
+    height: 8.8rem;
+    z-index:2;
+    margin-top: 1.6rem;
+  }
+  
+  #Texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+    margin-top: -3.2rem;
+    
+  }
+  
+  #Texts p{
+    font-size: 6px ;
+    color: #B2B2B2;
+    margin-bottom: 0;
+    padding-bottom: 1.6px;
+    margin-top:0;
+    font-weight: bold;
+  }
+  
+  .gap{
+    padding-top:0.4rem;
+  }
+  
+.textsize1{
+  font-size: 5px !important;
+  font-weight: bold;
+  padding: 0;
+  padding-top: 0.3rem;
+}
+
+#textsize2{
+  font-size: 3px !important;
+  font-weight: bold;
+    
+}
+    
+  
+.moveright{
+  margin-left: 1rem;
+}

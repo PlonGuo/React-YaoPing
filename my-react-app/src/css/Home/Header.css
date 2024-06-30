@@ -1,0 +1,127 @@
+#firstPart{
+    background-color: transparent;
+    z-index: 0;
+    
+    background-size: cover;
+   
+    /* overflow: hidden; */
+    /* width: 100%; */
+  }
+  
+  nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    margin-top: 1rem;
+  }
+  
+  #logo{
+
+    padding-top:1rem;
+    height: 5rem;
+    
+  }
+  
+  ul{
+    list-style: none;
+    /* color: white; */
+    /* margin-left: -12rem; */
+    /* width: 100%; */
+  }
+  
+  ul li{
+    display: inline-block;
+    padding:1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    position: relative; /* 相对定位，用于包含绝对定位的子元素 */
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color:inherit;
+  }
+
+  /* ul li a:visited{
+    color:white;
+  } */
+
+  ul li a:hover{
+    color:rgb(230, 151, 48);
+  }
+
+  .dropdown-content {
+    display: none;  /* 默认隐藏 */
+    position: absolute;  /* 绝对定位 */
+    background-color: white;  /* 背景颜色 */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  /* 阴影 */
+    z-index: 1;  /* 确保在其他元素之上 */
+    top: 100%;  /* 下拉内容放置在父元素下面 */
+    left: 0;  /* 左对齐 */
+    padding: 8px 16px; /* 增加内边距 */
+    min-width: 90px; /* 设置最小宽度 */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;  /* 鼠标悬停时显示 */
+  }
+  
+  .dropdown-content a {
+    display: block;  /* 每个链接占一行 */
+    padding: 8px 0;  /* 增加上下内边距 */
+    color: black;  /* 设置链接颜色 */
+    text-decoration: none;  /* 去掉下划线 */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* 悬停时背景颜色变化 */
+  }
+  
+  #login{
+    background-color: transparent;
+    border: 1.6px solid white;
+    color:white;
+    border-radius: 20px;
+    padding-bottom: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
+    height: 2rem;
+    /* margin-top: 2.2rem; */
+    margin-left:1rem;
+    cursor:pointer;
+    outline: none;  /* 移除默认的聚焦边框 */
+  }
+
+
+  /* 黑色样式 */
+.black-theme {
+  color: black;
+  margin-left: 1rem;
+}
+
+
+
+.black-theme #login {
+  color: black;
+  border-color: black;
+}
+
+.black-theme #logo {
+  margin-left: -1rem;
+  padding-right: 0.5rem;
+}
+
+.black-theme ul li a {
+  color: black;
+}
+
+.black-theme ul li a:hover {
+  color: rgb(230, 151, 48);
+}
+
+.black-theme .dropdown-content a {
+  color: black;
+}

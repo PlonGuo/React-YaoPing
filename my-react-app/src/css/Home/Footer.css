@@ -1,0 +1,67 @@
+/* Footer */
+footer{
+    background-color: #242424;
+    height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  footer p{
+    color: white;
+    font-size: 12px;
+  }
+  
+  footer h4{
+    font-size: 13px;
+  }
+  
+  .social-media-layout{
+    display: flex;
+    gap: 1.25rem;
+  }
+  
+  .social-media-layout img{
+    height: 1.12rem;
+    margin-bottom: 1.12rem;
+  }
+  
+  .footer-columne{
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .footer-columne h4{
+    color: white;
+    margin-bottom: 1.6rem;
+  }
+  
+  .footer-columne p{
+    margin-bottom: 0;
+  }
+  
+  #movebottom2{
+    margin-top: 10rem;
+  }
+  
+  /* #arrange1{
+    margin-top: -rem;
+  } */
+  
+  #arrange2{
+    height: 1.6rem;
+  }
+  
+  #arrange3{
+    margin-top: 0.45rem;
+  }
+  
+  #movebottom3{
+    margin-top: -4rem;
+  }
+  
+  #咨询{
+    height: 3rem;
+  }

@@ -1,0 +1,96 @@
+/* sixth section */
+#客户反馈{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    background-color: white;
+    margin-top: -0.1px;
+  }
+  
+  #客户反馈 > p{
+    font-size: 13px;
+    color:#746e6e !important;
+    margin-top:0;
+  }
+  
+  #客户反馈 p{
+    z-index:2;
+    color: #3c3939;
+    font-weight: bold;
+  }
+  
+  #客户反馈 h1{
+    font-size: 2.4rem;
+    z-index:2;
+    color: black;
+  }
+  
+  #YAOPING3{
+    width: 56rem;
+    height: 12rem;
+    margin-top:2.4rem;
+    z-index:0;
+  }
+  
+  .customer h3{
+    font-size: 12px;
+  }
+  
+  .customer p{
+    font-size: 11px;
+    color: #666666;
+  }
+  
+  .FeedbackContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12rem;
+    height: 32vh;
+  }
+  
+  .Feedback{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .redline{
+    border-right: 1.6px solid #AD6C1E;
+    padding:20px;
+    height: 9.6rem;
+    z-index:2;
+  }
+  
+  .info{
+    z-index:2;
+    padding-left:0.8rem;
+  }
+  
+  .infoimage{
+    display: flex;
+    justify-content:flex-start;
+  }
+  
+  .infoimage img{
+    height: 4rem;
+    padding-right: 0.8rem;
+  }
+  
+  .infoimage p{
+    color: #343131;
+  }
+  
+  .infotext{
+    font-size: 12px;
+    padding-bottom: 0.8rem;
+    line-height: 2rem;
+  }
+  
+  .CarouselButtons{
+    margin-top: 1rem;
+    padding-bottom: 3.2rem;
+  }
+  
+  .Cbs img{
+    width: 8rem;
+  }

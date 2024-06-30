@@ -1,0 +1,76 @@
+.TeamFlex1{
+    /* margin-top: 0rem; */
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    width:100%;
+}
+
+.TeamFlex1 h2{
+    /* position: relative; */
+    margin:0;
+    padding: 0 10px;
+    color:rgb(44, 42, 42);
+    font-size: 2rem;
+    z-index:1;
+}
+
+.横线1{
+    /* position: absolute; */
+    width: 80%; 
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+}
+
+.横线2{
+    width: 3rem;
+    border-bottom: 6px solid black;
+    margin-top: -3.5px;
+}
+.TeamFlex2 {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+/* 组件 */
+.MemberFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 23rem;
+    padding-bottom: 2rem;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 5px rgba(52, 50, 50, 0.1);
+}
+
+.Name{
+    color: #AD6C1E;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight:580;
+    margin-bottom: 0rem;
+}
+
+.短渐变横线{
+    z-index: 2;
+    border-bottom: 2px solid transparent;
+    background-image: linear-gradient(to right, transparent, grey, transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: bottom;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.MemberFlex p{
+    font-size: 12px;
+    margin: 2px;
+    color: #615d5d;
+    font-weight: 500;
+}
